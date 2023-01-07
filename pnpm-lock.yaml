@@ -7,14 +7,11 @@ specifiers:
   '@babel/plugin-transform-runtime': 7.18.5
   '@babel/preset-env': 7.18.2
   '@babel/runtime-corejs3': 7.18.3
-  '@flemist/abort-controller-fast': ^0.0.5
-  '@flemist/async-utils': ^0.0.11
+  '@flemist/async-utils': ^0.0.13
   '@flemist/copy-glob-flat': 0.0.5
   '@flemist/karma-custom-launcher': 0.0.0
-  '@flemist/pairing-heap': ^0.0.7
   '@flemist/test-utils': 0.0.9
   '@flemist/test-variants': 0.0.16
-  '@flemist/time-controller': ^0.0.1
   '@rollup/plugin-alias': 3.1.9
   '@rollup/plugin-babel': 5.3.1
   '@rollup/plugin-commonjs': '=21.1.0'
@@ -52,13 +49,9 @@ specifiers:
   ts-node: '=10.8.0'
   tsconfig-paths: 4.0.0
   tslib: ^2.4.0
-  typescript: ^4.7.4
+  typescript: '=4.7.4'
 
 dependencies:
-  '@flemist/abort-controller-fast': 0.0.5
-  '@flemist/async-utils': 0.0.11
-  '@flemist/pairing-heap': 0.0.7
-  '@flemist/time-controller': 0.0.1
   tslib: 2.4.0
 
 devDependencies:
@@ -68,6 +61,7 @@ devDependencies:
   '@babel/plugin-transform-runtime': 7.18.5_@babel+core@7.18.5
   '@babel/preset-env': 7.18.2_@babel+core@7.18.5
   '@babel/runtime-corejs3': 7.18.3
+  '@flemist/async-utils': 0.0.13
   '@flemist/copy-glob-flat': 0.0.5
   '@flemist/karma-custom-launcher': 0.0.0
   '@flemist/test-utils': 0.0.9
@@ -1308,15 +1302,16 @@ packages:
     resolution: {integrity: sha512-ewpqfmNx+V5dqTzVBxi7syhhsFRk5ktNOd0d85tKyGkqwzoMyJSYGBPmycYhlUDSsIN/3Nb2EaE0tPOtfw6PNQ==}
     dependencies:
       tslib: 2.4.0
+    dev: true
 
-  /@flemist/async-utils/0.0.11:
-    resolution: {integrity: sha512-XuHqpW9Z4teIM/aWWYZPZVLtS0DOOqhrTV/6DUcglSE2fZUfbyImdljRYq73ovwAwUy6ZmARFh25C+CoOf5UPw==}
+  /@flemist/async-utils/0.0.13:
+    resolution: {integrity: sha512-pxGOle7BpEcA5xQaLotJgANmIlWwlHeUMuNiwnRJOmIdTM+yqZHbl9mBVkXYsRhK+SKO44u5CnH2ypMx5D0BOw==}
     engines: {node: '>=10.4.0', pnpm: ^7.1.6}
     dependencies:
       '@flemist/abort-controller-fast': 0.0.5
       '@flemist/time-controller': 0.0.1
       tslib: 2.4.0
-    dev: false
+    dev: true
 
   /@flemist/copy-glob-flat/0.0.5:
     resolution: {integrity: sha512-nw2x3zS78uRv7jlR709oXiMXhtTlTS2+WJiy3aTabcayv50CNHMKXevv9WR7YjUJzS7743EdPJl5wAKjIq9Fdg==}
@@ -1337,13 +1332,7 @@ packages:
     engines: {node: '>=10.4.0', pnpm: ^7.1.6}
     dependencies:
       tslib: 2.4.0
-
-  /@flemist/pairing-heap/0.0.7:
-    resolution: {integrity: sha512-6t5LhqU5ahJzhsrnf5I2clbq1FWZbpEp+41mVEatQxm5/G9x2jk8OlLScEMSlGubcx/ZFLiS8ndge6a7ZiZ/cQ==}
-    engines: {node: '>=10.4.0', pnpm: ^7.1.6}
-    dependencies:
-      tslib: 2.4.0
-    dev: false
+    dev: true
 
   /@flemist/test-utils/0.0.9:
     resolution: {integrity: sha512-G0WGevCHCyp1BYipmhvnIJMdq6VGVqTZw69teVIhnC9CyA1jXhKXeHdTo8XZDjDJ5MsE5HKYzo50/tKlay/tVA==}
@@ -1367,6 +1356,7 @@ packages:
     dependencies:
       '@flemist/pairing-heap': 0.0.1
       tslib: 2.4.0
+    dev: true
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}

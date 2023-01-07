@@ -59,6 +59,7 @@
     "@babel/plugin-transform-runtime": "7.18.5",
     "@babel/preset-env": "7.18.2",
     "@babel/runtime-corejs3": "7.18.3",
+    "@flemist/async-utils": "^0.0.13",
     "@flemist/copy-glob-flat": "0.0.5",
     "@flemist/karma-custom-launcher": "0.0.0",
     "@flemist/test-utils": "0.0.9",

@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var test = require('./test.cjs');
+var resizeObserve = require('./resizeObserve.cjs');
 
 
 
-exports.test = test.test;
+exports.resizeObserve = resizeObserve.resizeObserve;

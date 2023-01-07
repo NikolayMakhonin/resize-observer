@@ -1,1 +1,1 @@
-export { test } from './test.mjs';
+export { resizeObserve } from './resizeObserve.mjs';
